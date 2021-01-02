@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -15,11 +15,10 @@
 
 .App-header {
   background-color: #f4f5f7;
-  min-height: 90vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: rgb(5, 5, 5);
 }
@@ -29,13 +28,19 @@
   font-size: x-large;
   color: black;
   text-align: left;
-  border-right: #61dafb;
+  width: 30vh;
+}
+
+
+.SubCategory{
+    font-size: small;
 }
 
 .Footer {
   text-align: center;
 }
 .App-link {
+  margin-top: 0px;
   color: #61dafb;
 }
 
